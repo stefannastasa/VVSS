@@ -1,0 +1,8 @@
+
+¦
+java:S1319"eThe type of "tasks" should be an interface such as "List" rather than the implementation "ArrayList".(±ψΆΘϋÿÿÿÿJ$9985d0f3-b406-4fd7-a030-f9957a44fecf
+’
+java:S1104"QMake tasks a static final constant or non-public and provide accessors if needed.(±ψΆΘϋÿÿÿÿJ$f93eca97-d73a-400d-9a22-2c56928e5e29
+k	java:S106"+Replace this use of System.out by a logger.(χΊβÿÿÿÿÿÿJ$51290c5c-b382-468f-82d9-e30d61fc2c5e
+k	java:S106"+Replace this use of System.out by a logger.(ΓέκωÿÿÿÿJ$f7b7fd85-aaf3-457b-85e7-0d9b022963ad
+e	java:S106"+Replace this use of System.out by a logger.(ΣΡJ$ea3d1c0a-2f67-4b3c-86d5-8c7af2f09e72

@@ -1,0 +1,9 @@
+
+\
+java:S2885" Make "sdf" an instance variable.(¸‰ˆíJ$0f4025f9-2cad-435e-8989-cba11ef5545a
+j
+java:S1940`")Use the opposite operator ("!=") instead.(‡í€µşÿÿÿÿJ$4144a279-b4e4-439d-85ac-6356e4af66cb
+“
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Î¥­üÿÿÿÿJ$299ac28b-03ad-467f-8f32-71cf872438ba
+•
+java:S2975°"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(®Ç‹¹şÿÿÿÿJ$7c1fcec8-c3e3-4377-83d9-736e09da6b94
