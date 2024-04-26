@@ -1,4 +1,5 @@
 
-–
-java:S3038"U"iterator" is defined in the "Iterable" interface and can be removed from this class.(Äà‡ëşÿÿÿÿJ$c5936142-6095-4c64-82b6-848a6f22dafd
-f	java:S106"+Replace this use of System.out by a logger.(å‚ŠJ$e4619cb7-bf17-4712-a8a2-dc133618fa46
+n
+java:S3416"+Update this logger to use "TaskList.class".(şêâÊ8¹ı’¶æ1J$4c4e829c-8fd4-4250-b27b-312b740d360f
+r
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ÇÃ–¶æ1J$a9a6de4f-7a30-49b5-a0f5-74e42acb0396

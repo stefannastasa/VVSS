@@ -14,7 +14,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 import tasks.model.Task;
-import tasks.services.DateService;
+import tasks.services.DateUtils;
 import tasks.services.TaskIO;
 import tasks.services.TasksService;
 import tasks.view.Main;
@@ -28,7 +28,7 @@ public class Controller {
     private static final Logger log = Logger.getLogger(Controller.class.getName());
     public ObservableList<Task> tasksList;
     TasksService service;
-    DateService dateService;
+    DateUtils dateUtils;
 
     public static Stage editNewStage;
     public static Stage infoStage;
@@ -56,7 +56,7 @@ public class Controller {
 
     public void setService(TasksService service){
         this.service=service;
-        this.dateService=new DateService();
+        this.dateUtils =new DateUtils();
         this.tasksList=service.getObservableList();
         updateCountLabel(tasksList);
         tasks.setItems(tasksList);
@@ -93,7 +93,10 @@ public class Controller {
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
-            editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
+            Task task = (Task)mainTable.getSelectionModel().getSelectedItem();
+            if (task != null)
+                editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
+
             editNewStage.setScene(new Scene(root, 600, 350));
             editNewStage.setResizable(false);
             editNewStage.initOwner(Main.primaryStage);
@@ -139,8 +142,8 @@ public class Controller {
         updateCountLabel(observableTasks);
     }
     private Date getDateFromFilterField(LocalDate localDate, String time){
-        Date date = dateService.getDateValueFromLocalDate(localDate);
-        return dateService.getDateMergedWithTime(time, date);
+        Date date = dateUtils.getDateValueFromLocalDate(localDate);
+        return dateUtils.getDateMergedWithTime(time, date);
     }
 
 
