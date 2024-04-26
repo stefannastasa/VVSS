@@ -40,7 +40,7 @@ class ArrayTaskListTest {
     }
 
     @Test
-    public void testRemove_TaskNull_ReturnsFalse() {
+    public void RemoveTaskNull() {
         // arrange
         atl.add(new Task("task42", date));
         Task task = null;
@@ -53,7 +53,7 @@ class ArrayTaskListTest {
     }
 
     @Test
-    public void testRemove_TaskFound_ReturnsTrue() {
+    public void RemoveTask() {
         // arrange
         atl.add(new Task("task1", date));
         atl.add(new Task("task2", date));
