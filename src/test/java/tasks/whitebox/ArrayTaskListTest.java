@@ -1,8 +1,10 @@
-package tasks.model;
+package tasks.whitebox;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tasks.model.ArrayTaskList;
+import tasks.model.Task;
 
 import java.util.Date;
 
