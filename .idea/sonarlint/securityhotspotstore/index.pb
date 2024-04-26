@@ -51,3 +51,7 @@ j
 Lsrc/test/java/tasks/integration/TaskServiceArrayTaskListIntegrationTest.java,0/a/0a69ced91bd090504eeb8699c37ed75a49d82975
 p
 @src/test/java/tasks/integration/TaskServiceArrayListNonMock.java,b/c/bcd0f03394b1a3e2c1cac4df23eee16d75168e2b
+a
+1src/test/java/tasks/blackbox/ServiceTaskTest.java,5/a/5ab4028b67b992ae3d51c6825aa8ae8aab52ab2d
+a
+1src/main/java/tasks/services/ServiceTaskTest.java,1/f/1f28922760937c99c46bc91558253182cd3284a0
