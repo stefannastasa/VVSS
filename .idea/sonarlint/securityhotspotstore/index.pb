@@ -55,3 +55,15 @@ a
 1src/test/java/tasks/blackbox/ServiceTaskTest.java,5/a/5ab4028b67b992ae3d51c6825aa8ae8aab52ab2d
 a
 1src/main/java/tasks/services/ServiceTaskTest.java,1/f/1f28922760937c99c46bc91558253182cd3284a0
+i
+9src/test/java/tests/model/ArrayTaskListIsolationTest.java,8/8/882c021bf84e6b29f9633fad92487fa86c02a90e
+|
+Lsrc/test/java/tests/integration/TaskServiceArrayTaskListIntegrationTest.java,9/f/9f8ad64973c9dbfdc089e74f11cd004d43a18b5b
+`
+0src/test/java/tests/model/TaskIsolationTest.java,a/0/a0419b9d2eed80926a0b4ef9800c49b942f17ab1
+a
+1src/test/java/tests/blackbox/ServiceTaskTest.java,0/e/0ee08298b5e331c17327705315343abab49c37ad
+j
+:src/test/java/tests/services/TaskServiceIsolationTest.java,d/4/d406832d335396e7e27aa65e48f48619325a8edb
+p
+@src/test/java/tests/integration/TaskServiceArrayListNonMock.java,c/6/c688a98658e107c9efaa43d09e65a2858967c96a
