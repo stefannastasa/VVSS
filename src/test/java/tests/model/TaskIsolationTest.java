@@ -9,7 +9,7 @@ import java.util.GregorianCalendar;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TaskIsolationTest {
+public class TaskIsolationTest {
 
     @Test
     public void testCreate_Task() {

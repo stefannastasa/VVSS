@@ -67,3 +67,5 @@ j
 :src/test/java/tests/services/TaskServiceIsolationTest.java,d/4/d406832d335396e7e27aa65e48f48619325a8edb
 p
 @src/test/java/tests/integration/TaskServiceArrayListNonMock.java,c/6/c688a98658e107c9efaa43d09e65a2858967c96a
+c
+3src/test/java/tests/whitebox/ArrayTaskListTest.java,8/2/82b312ec7864acffb60cba40e5d8bd3241939f98
