@@ -28,7 +28,7 @@ public class TaskServiceArrayListNonMock {
     }
 
     @Test
-    void testGetObservableList() {
+    public void testGetObservableList() {
         ObservableList<Task> result = tasksService.getObservableList();
         assertNotNull(result);
         assertFalse(result.isEmpty());
