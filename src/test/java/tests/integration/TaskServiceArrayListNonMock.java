@@ -19,7 +19,7 @@ public class TaskServiceArrayListNonMock {
     private Date now;
 
     @BeforeEach
-    void setUp() {
+    public void setUp() {
         taskList = new ArrayTaskList();
         now = new Date();
         task = new Task("Integration Test Task1", now, new Date(now.getTime() + 1000 * 3600 * 2), 3600); // every hour
@@ -37,7 +37,7 @@ public class TaskServiceArrayListNonMock {
     }
 
     @Test
-    void testFilterTasks() {
+    public void testFilterTasks() {
         Date end = new Date(now.getTime() + 1000 * 3600 * 24); // 24 hours later
 
         Iterable<Task> filteredTasks = tasksService.filterTasks(now, end);
