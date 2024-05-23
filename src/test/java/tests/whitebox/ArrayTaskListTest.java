@@ -11,7 +11,7 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class ArrayTaskListTest {
+public class ArrayTaskListTest {
     private ArrayTaskList atl;
     private Date date;
 
