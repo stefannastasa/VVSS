@@ -11,7 +11,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TaskServiceArrayListNonMock {
+public class TaskServiceArrayListNonMock {
     private TasksService tasksService;
     private ArrayTaskList taskList;
     private Task task;
