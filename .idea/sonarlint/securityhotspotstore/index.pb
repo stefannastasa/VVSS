@@ -23,8 +23,6 @@ N
 src/main/java/module-info.java,1/c/1c89a5491fbfda3fb050196d6a239f20200296e7
 X
 (src/main/java/tasks/services/TaskIO.java,2/6/26c7ae39591499fab3685c25bb4834dc2fc7cf24
-W
-'src/test/java/tasks/model/TaskTest.java,3/1/31324894a484d06adcd87a923fb98e2c49cb815e
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 ^
@@ -35,26 +33,6 @@ f
 data/tasks.txt,c/8/c8717992ac90be128c21fa680a390954dd3ffb86
 [
 +src/main/java/tasks/services/DateUtils.java,f/b/fb71a787c5dd8623c117695840732fc7fbb99a1c
-_
-/src/test/java/tasks/services/DateUtilsTest.java,6/7/6703fdafc33fc64efef1667e7636d8b5fe976ef9
-`
-0src/test/java/tasks/model/TaskIsolationTest.java,f/5/f5bed7b7b97c2142ffc71af19c5d240c46eed13e
-`
-0src/test/java/tasks/model/ArrayTaskListTest.java,b/b/bb3e361b5340906294280c0a5d14d44253f55be2
-i
-9src/test/java/tasks/model/ArrayTaskListIsolationTest.java,d/9/d9bca41e263a62d4c518ba324c9839bab59090fa
-g
-7src/test/java/tasks/model/TaskServiceIsolationTest.java,4/0/40f23a0692d19470331644e7db5ad62aa87eaa8a
-j
-:src/test/java/tasks/services/TaskServiceIsolationTest.java,0/1/014a41c802f59d2df035125bb52a3d5f961313a3
-|
-Lsrc/test/java/tasks/integration/TaskServiceArrayTaskListIntegrationTest.java,0/a/0a69ced91bd090504eeb8699c37ed75a49d82975
-p
-@src/test/java/tasks/integration/TaskServiceArrayListNonMock.java,b/c/bcd0f03394b1a3e2c1cac4df23eee16d75168e2b
-a
-1src/test/java/tasks/blackbox/ServiceTaskTest.java,5/a/5ab4028b67b992ae3d51c6825aa8ae8aab52ab2d
-a
-1src/main/java/tasks/services/ServiceTaskTest.java,1/f/1f28922760937c99c46bc91558253182cd3284a0
 i
 9src/test/java/tests/model/ArrayTaskListIsolationTest.java,8/8/882c021bf84e6b29f9633fad92487fa86c02a90e
 |

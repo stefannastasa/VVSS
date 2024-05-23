@@ -1,2 +1,8 @@
-/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tasks/model/TaskTest.java
-/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tasks/services/DateServiceTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/model/ArrayTaskListIsolationTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/model/TaskIsolationTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/integration/TaskServiceArrayListNonMock.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/services/TaskServiceIsolationTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/model/TaskTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/blackbox/ServiceTaskTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/whitebox/ArrayTaskListTest.java
+/Users/tefannastasa/Facultate/VVSS/01_Tasks/src/test/java/tests/integration/TaskServiceArrayTaskListIntegrationTest.java

@@ -1,2 +1,8 @@
-tasks/services/DateServiceTest.class
-tasks/model/TaskTest.class
+tests/model/TaskIsolationTest.class
+tests/model/ArrayTaskListIsolationTest.class
+tests/services/TasksServiceIsolationTest.class
+tests/integration/TaskServiceArrayListNonMock.class
+tests/whitebox/ArrayTaskListTest.class
+tests/model/TaskTest.class
+tests/integration/TaskServiceArrayTaskListIntegrationTest.class
+tests/blackbox/ServiceTaskTest.class
